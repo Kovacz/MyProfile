@@ -1,4 +1,5 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+	
 	#first, #about-me, #skills-outer, #works-outer, #foo {
 		width: 90%;
 	}
@@ -15,6 +16,27 @@
 	.picture, .picture__item {
 		max-width: 300px;
 	}
+
+	.point {
+		margin-bottom: 15px;
+	}
+
+	.merits {
+		margin: 50px 0px 0px 0px;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.logo {
+		margin-right: 50px;
+	}
+
+	.main-menu__item {
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {	
 
 	.main-menu {
 		display: none;
@@ -38,11 +60,7 @@
 		margin-top: 250px;
 	}
 
-	.merits {
-		margin: 50px 0px 0px 0px;
-		display: inline-block;
-		width: 100%;
-	}
+	
 
 	.item, .item:last-child {
 		margin: 0px auto 30px;
@@ -68,10 +86,6 @@
 		display: none;
 	}
 
-	.point {
-		margin-bottom: 15px;
-	}
-
 	.picture__item {
 		display: block;
 		margin-bottom: 15px;
@@ -84,4 +98,5 @@
 	.rights {
 		font-size: 10px; 
 	}
+
 }
