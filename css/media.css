@@ -1,0 +1,87 @@
+@media screen and (max-width: 1024px) {
+	#first, #about-me, #skills-outer, #works-outer, #foo {
+		width: 90%;
+	}
+
+	.bg, .man, .point, .picture__item, .connection {
+		width: 100%;
+	}
+
+	.picture, .picture:last-child {
+		margin: 0 auto;
+		float: none;
+	}
+
+	.picture, .picture__item {
+		max-width: 300px;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.logo, .main-link, .man__icon {
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+
+	.overlay {
+		height: 100%;
+	}
+
+	.header {
+		margin-bottom: 250px;
+	}
+
+	.tagline__img {
+		margin-top: 250px;
+	}
+
+	.merits {
+		margin: 50px 0px 0px 0px;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.item, .item:last-child {
+		margin: 0px auto 30px;
+		float: none;
+	}
+
+	.tagline__title {
+		font-size: 39px;
+	}
+
+	.tagline__subtitle {
+		font-size: 25px;
+	}
+
+	.social-links, .man__subtext {
+		text-align: center;
+		float: none;
+		margin: 0;
+		display: block;
+	}
+
+	.man {
+		display: none;
+	}
+
+	.point {
+		margin-bottom: 15px;
+	}
+
+	.picture__item {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.overlay {
+		padding-top: 113px;
+	}
+
+	.rights {
+		font-size: 10px; 
+	}
+}
